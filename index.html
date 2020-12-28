@@ -1,79 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-    </head>
-    <title>Javier Delgado López</title>
+    <title>Basic Information about Javier</title>
     <meta charset="UTF-8"   />
-    
-
-        <body id="top">
-          <header>
-              <a href="#top">Javier Delgado López</a>
-              <nav>
-                  <ul>
-                      <li>
-                          <a href="#hero">Hero</a>
+    <meta name="viewport" content="width" />
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    </head>
+    <div class="bg-yellow-600">
+    <body id="top">
+      
+        <div class=" grid place-items-center">
+            <img src="javier.jpeg" width="20%">
+            <header>
+                <a href="#top" class="font-bold italic text-5xl leading-none">Javier Delgado López</a>
+               
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#basics"></a>
+                        </li>
+                        <li>
+                          <a href="#about">About</a>
                       </li>
                       <li>
-                        <a href="#about">About</a>
-                    </li>
-                    <li>
-                        <a href="#tech-support">Tech support</a>
-                    </li>
-                  </ul>
-              </nav>
-          </header>
+                          <a href="#dog">My Dogs And Best Buds</a>
+                      </li>
+                    </ul>
+                </nav>
+            </header>
+        
           <main>
-              <section id="hero">
-                  <p>It's Javier from</p>
-                  <h1>Clemson University</h1>
-                  <p>Electrical Engineering</p>
+              <section id="basics">
+                  <p></p>
+                  <h1>College: Clemson University</h1>
+                  <p>Major: Electrical Engineering</p>
+                  <a
+                    href="https://www.linkedin.com/in/javier-delgado-l%C3%B3pez-8590358a/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    class="bg-blue-800 rounded-lg px-8 py2 text-white inline-block"
+                  
+                  >Connect in LinkedIn</a>
+                </div>
               </section>
               <section id="about">
-                  <h2>About</h2>
+                  <h1 class="font-bold grid place-items-center">Favorite Hobbies</h2>
                   <ul>
-                      <li>
-                        <img src="circuit.jpg" />
-                        <h3>Circuits</h3> 
-                        <p>AC and DC Circuits Analysis</p> 
+                      <li class="grid place-items-center">
+                        <img src="running.jpg" width="20%"/>
+                        <h2 class="font-bold grid place-items-center">Running and Hiking</h3> 
+                        <p>I love going on runs and hikes with my dogs or alone if I can't take them with me. I usually go for one or two miles each day.</p> 
                       </li>
-                      <li>
-                          <img src="berlin.jpg" />
-                          <img src="pr.jpg" />
-                          <h3>Languages</h3>
-                          <p>I enjoy learning languages. My native languages are Spanish and English, even though I learned Spanish first. I can also speak German pretty well; however I am not yet somewhere I would call myself fluent in this language.
+                      <li class="grid place-items-center">
+                          <img src="berlin.jpg" width="20%" />
+                          <img src="pr.jpg" width="20%" />
+                          <h2 class="font-bold grid place-items-center">Languages</h3>
+                          <p>I enjoy learning languages. My native languages are Spanish and English, even though I learned Spanish first. I can also speak German pretty well; however I am not yet somewhere I would call myself fluent in this language. I am also interested in Russian, French and a lot of other ones.
                           </p>
                       </li>
-                      <li>
-                        <img src="keto.jpg" />
-                        <h3>Keto Day Every Day</h3>
-                        <p>Low carb diet is the way to go.</p>
+                      <li class="grid justify-items-center">
+                        <img src="book1.png" width="20%" style="float:left" />
+                        <img src="book2.png" width="20%" />
+                        <h2 class="font-bold grid place-items-center">Reading</h3>
+                        <p>Reading recently became a favorite hobby for me. I now enjoy it more than watching TV. This month I read Aldous Huxley's "Brave New World" and "The Doors of Perception", and Herman Hesse's "Siddhartha". I am currently reading the book in the picture, "Brothers of Auschwitz", by Malka Adler. I have not read the books in the pictures but would love to one day. </p>
                     </li>
                   </ul>
-              </section id=tech-support>
+              
 
-              <section id="tech-support">
-                  <h2>Tech Support</h2>
+              <section id="dog">
+                  <h1 class="font-bold grid place-items-center">Pictures of my Dogs</h2>
                   <ul>
                       <li>
-                          <img src="javier.jpeg"/>
-                          <h3>Javier Delgado López</h3>
-                          <p>Cayey, PR</p>
+                          <div class="grid place-items-center">
+                          <img src="tank.jpeg" width="20%" />
+                          <h3 class="italic">Tank</h3>
+                          <p>This is my first dog Tank. Tank is 2 years old and about to turn 3 in February. He is super friendly with people and other pets, playful, and loves walks and runs.</p>
+                        </div>
                       </li>
                       <li>
-
-                      </li>
-                      <li>
-                          <img src="tank.jpeg"/>
-                          <h3>Tank</h3>
-                          <p>Central, SC</p>
+                        <div class="grid place-items-center">
+                          <img src="lucas.png" width="20%">
+                          <h3 class="italic" >Lucas</h3>
+                          <p>This is my second dog Lucas. Originally my mom's dog, he was given to me after another one of her dogs had a litter. Lucas is friendly but only with people, and loves walks and runs.</p>
+                        </div>
                       </li>
                   </ul>
 
               </section>
           </main>
-          <footer>
+          <footer class="grid place-items-end">
               © 2020 Javier Delgado López. All rights reserved.
           </footer>
         </body>
+    </div>
 </html>
